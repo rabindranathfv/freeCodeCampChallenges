@@ -13,7 +13,11 @@
 
 <!--using div -->
 <div id="app">
-        {{ message }}
+        <!-- using variable of data, using v-model i can wrap the data and manipulate it -->
+      <input type="text" id="data_input" v-model="message">
+
+      <p>THe value of the input {{ message }}</p>
+
 </div>
 
 </body>
@@ -24,7 +28,7 @@
             // el is the name of id of an element you want to manipulate
             el: '#app',
             data: {
-              message: 'Hello Vue!'
+              message: 'Hello Vue!',
             }
           })
 
