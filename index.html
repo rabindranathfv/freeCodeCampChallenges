@@ -2,9 +2,8 @@
 <html>
 <head>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-
 <title>Page Title</title>
+
 </head>
 
 <body>
@@ -18,9 +17,16 @@
 
       <p>THe value of the input {{ message }}</p>
 
+      <ul>
+        <!-- v-for para recorrer el array, y v-text para imprimir el contenido del for en la vista-->
+        <li v-for="name in arrayNameResponse" v-text="name"> </li>
+      </ul>
+
 </div>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
 <script>
 
@@ -29,6 +35,7 @@
             el: '#app',
             data: {
               message: 'Hello Vue!',
+              arrayNameResponse: ['rabin','jose','daniel']
             }
           })
 
