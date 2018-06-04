@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<title>Page Title</title>
+</head>
+
+<body>
+
+<h1>My First Heading</h1>
+
+<!--using div -->
+<div id="app">
+        {{ message }}
+</div>
+
+</body>
+
+<script>
+
+        var app = new Vue({
+            // el is the name of id of an element you want to manipulate
+            el: '#app',
+            data: {
+              message: 'Hello Vue!'
+            }
+          })
+
+</script>
+</html>
