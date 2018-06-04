@@ -22,6 +22,11 @@
         <li v-for="name in arrayNameResponse" v-text="name"> </li>
       </ul>
 
+      <input type="text" id="data_input" v-model="newName">
+
+      <!-- v-on:callback or evento='methodName'-->
+      <button v-on:click="addName">Agregar nombre</button>
+
 </div>
 
 </body>
@@ -34,10 +39,18 @@
             // el is the name of id of an element you want to manipulate
             el: '#app',
             data: {
-              message: 'Hello Vue!',
-              arrayNameResponse: ['rabin','jose','daniel']
+              message: 'hola VueJS',
+              arrayNameResponse: ['rabin','jose','daniel','pedro','yamil'],
+              newName : ''
+            },
+
+            addName: function () {
+              alert('test method addName '+ this.newName);
+              //This hace referencia al objeto data especificamente al elemento arrayNameResponse y posteriormente agregamos la data que tomamos del v-model
+                this.arrayNameResponse.push(this.newName);
             }
-          })
+
+          });
 
 </script>
 </html>
