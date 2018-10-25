@@ -1,6 +1,8 @@
 # FreeCodeCampChallenges 
 
-** Intermediate Algorithm Scripting Challenges **
+*Javascript Algorithms And Data Structures Certification*
+  
+  **Intermediate Algorithm Scripting Challenges**
 
 - [X] Sum All Numbers in a Range
 - [X] Diff Two Arrays
