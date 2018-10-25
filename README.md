@@ -2,24 +2,24 @@
 
 ** Intermediate Algorithm Scripting Challenges **
 
-- [] Sum All Numbers in a Range
-- [] Diff Two Arrays
-- [] Seek and Destroy
-- [] PassedWherefore art thou
-- [] PassedSpinal Tap Case
-- [] PassedPig Latin
-- [] PassedSearch and Replace
-- [] PassedDNA Pairing
-- [] PassedMissing letters
-- [] PassedSorted Union
-- [] PassedConvert HTML Entities
-- [] PassedSum All Odd Fibonacci Numbers
-- [] PassedSum All Primes
-- [] PassedSmallest Common Multiple
-- [] PassedDrop it
-- [] PassedSteamroller
-- [] PassedBinary Agents
-- [] PassedEverything Be True
-- [] PassedArguments Optional
-- [] PassedMake a Person
-- [] PassedMap the Debris
+- [X] Sum All Numbers in a Range
+- [X] Diff Two Arrays
+- [X] Seek and Destroy
+- [ ] Wherefore art thou
+- [ ] Spinal Tap Case
+- [ ] Pig Latin
+- [ ] Search and Replace
+- [ ] DNA Pairing
+- [ ] Missing letters
+- [ ] Sorted Union
+- [ ] Convert HTML Entities
+- [ ] Sum All Odd Fibonacci Numbers
+- [ ] Sum All Primes
+- [ ] Smallest Common Multiple
+- [ ] Drop it
+- [ ] Steamroller
+- [ ] Binary Agents
+- [ ] Everything Be True
+- [ ] Arguments Optional
+- [ ] Make a Person
+- [ ] Map the Debris
