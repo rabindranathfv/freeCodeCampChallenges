@@ -1,4 +1,4 @@
-// Solution 1
+// Solution 1 fail 2 cases
 
 function whatIsInAName(collection, source) {
   // What's in a name?
@@ -26,3 +26,18 @@ function whatIsInAName(collection, source) {
 
 
 whatIsInAName([{ "apple": 1, "bat": 2 }, { "bat": 2 }, { "apple": 1, "bat": 2, "cookie": 2 }], { "apple": 1, "bat": 2 });
+
+
+// solution2 it's work fine
+
+function whatIsInAName(collection, source) {
+  // What's in a name?
+  // Only change code below this line
+  var dataKeys = Object.keys(source);
+
+  return collection.filter(function (obj) {
+    return dataKeys.every(function (key) {
+      return obj.hasOwnProperty(key) && obj[key] === source[key];
+    });
+  });
+}
