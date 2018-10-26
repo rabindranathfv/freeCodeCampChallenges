@@ -35,8 +35,8 @@ function whatIsInAName(collection, source) {
   // Only change code below this line
   var dataKeys = Object.keys(source);
 
-  return collection.filter(function (obj) {
-    return dataKeys.every(function (key) {
+  return collection.filter( (obj) => {
+    return dataKeys.every( (key) => {
       return obj.hasOwnProperty(key) && obj[key] === source[key];
     });
   });
