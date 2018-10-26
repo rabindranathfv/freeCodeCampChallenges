@@ -6,13 +6,8 @@ function whatIsInAName(collection, source) {
   // Only change code below this line
   let dataKeys = Object.keys(source);
   let dataValues = Object.values(source);
-  console.log(dataKeys);
-  console.log(dataValues);
-  let collectionKeys = Object.keys(collection);
-  let collectionValues = Object.values(collection);
+
   for(let index = 0; index < dataKeys.length ; index++) {
-    //console.log(dataKeys[index]);
-    //console.log(dataValues[index]);
     arr = collection.filter( (elem) => {
       //console.log(elem[dataKeys[index]]);
       return ((elem[dataKeys[index]] === dataValues[index]) && (collectionKeys.length >= dataKeys.length));
