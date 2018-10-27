@@ -7,9 +7,9 @@
 - [X] Sum All Numbers in a Range
 - [X] Diff Two Arrays
 - [X] Seek and Destroy
-- [ ] Wherefore art thou
-- [ ] Spinal Tap Case
-- [ ] Pig Latin
+- [x] Wherefore art thou
+- [x] Spinal Tap Case
+- [x] Pig Latin
 - [ ] Search and Replace
 - [ ] DNA Pairing
 - [ ] Missing letters
