@@ -10,7 +10,7 @@
 - [x] Wherefore art thou
 - [x] Spinal Tap Case
 - [x] Pig Latin
-- [ ] Search and Replace
+- [x] Search and Replace
 - [ ] DNA Pairing
 - [ ] Missing letters
 - [ ] Sorted Union
