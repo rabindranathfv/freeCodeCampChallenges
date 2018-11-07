@@ -12,7 +12,7 @@
 - [x] Pig Latin
 - [x] Search and Replace
 - [X] DNA Pairing
-- [ ] Missing letters
+- [x] Missing letters
 - [ ] Sorted Union
 - [ ] Convert HTML Entities
 - [ ] Sum All Odd Fibonacci Numbers
