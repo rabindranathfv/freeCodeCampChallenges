@@ -29,4 +29,21 @@ function pairElement(str) {
   return answer;
 }
 
+// es6 SOlution 2
+
+function pairElement(str) {  
+  return str.split('').map(function (x) {
+    switch (x) {
+      case "G":
+       return ["G","C"];       
+      case "C":   
+       return ["C","G"];        
+      case "T":
+       return ["T","A"];       
+      case "A":
+       return ["A","T"];       
+    }    
+  });
+}
+
 pairElement("GCG");
