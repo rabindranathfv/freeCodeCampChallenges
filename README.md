@@ -11,7 +11,7 @@
 - [x] Spinal Tap Case
 - [x] Pig Latin
 - [x] Search and Replace
-- [ ] DNA Pairing
+- [X] DNA Pairing
 - [ ] Missing letters
 - [ ] Sorted Union
 - [ ] Convert HTML Entities
