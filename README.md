@@ -1,22 +1,30 @@
 # FreeCodeCampChallenges 
 
+**Introduction to the Responsive Web Design Projects**
+
+- [] Build a Tribute Page
+- [] Build a Survey Form
+- [] Build a Product Landing Page
+- [] Build a Technical Documentation Page
+- [x] Build a Personal Portfolio Webpage
+
 **Javascript Algorithms And Data Structures Certification**
   
   *Intermediate Algorithm Scripting Challenges*
 
-- [X] Sum All Numbers in a Range
-- [X] Diff Two Arrays
-- [X] Seek and Destroy
+- [x] Sum All Numbers in a Range
+- [x] Diff Two Arrays
+- [x] Seek and Destroy
 - [x] Wherefore art thou
 - [x] Spinal Tap Case
 - [x] Pig Latin
 - [x] Search and Replace
-- [X] DNA Pairing
+- [x] DNA Pairing
 - [x] Missing letters
-- [ ] Sorted Union
-- [ ] Convert HTML Entities
-- [ ] Sum All Odd Fibonacci Numbers
-- [ ] Sum All Primes
+- [x] Sorted Union
+- [x] Convert HTML Entities
+- [x] Sum All Odd Fibonacci Numbers
+- [x] Sum All Primes
 - [ ] Smallest Common Multiple
 - [ ] Drop it
 - [ ] Steamroller
