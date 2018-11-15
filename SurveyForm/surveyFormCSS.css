@@ -1,0 +1,16 @@
+#main {
+    padding: 1% 1% 1% 1%;
+    background-color: lightcyan;
+}
+
+#submain {
+    margin: 2% 20% 2% 20%;
+    padding: 1% 5% 1% 5%;
+    background-color: lightgrey;
+}
+
+#description {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
