@@ -2,10 +2,10 @@
 
 **Introduction to the Responsive Web Design Projects**
 
-- [] Build a Tribute Page
-- [] Build a Survey Form
-- [] Build a Product Landing Page
-- [] Build a Technical Documentation Page
+- [ ] Build a Tribute Page
+- [ ] Build a Survey Form
+- [ ] Build a Product Landing Page
+- [ ] Build a Technical Documentation Page
 - [x] Build a Personal Portfolio Webpage
 
 **Javascript Algorithms And Data Structures Certification**
@@ -33,3 +33,11 @@
 - [ ] Arguments Optional
 - [ ] Make a Person
 - [ ] Map the Debris
+
+**Introduction to the JavaScript Algorithms and Data Structures Projects**
+
+- [ ] Palindrome Checker
+- [ ] Roman Numeral Converter
+- [ ] Caesars Cipher
+- [ ] Telephone Number Validator
+- [ ] Cash Register
