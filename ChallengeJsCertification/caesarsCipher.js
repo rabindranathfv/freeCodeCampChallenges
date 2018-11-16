@@ -65,6 +65,5 @@ function rot13(str) { // LBH QVQ VG!
     });
     return answer;
 }
-
 // Change the inputs below to test
 rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.");
