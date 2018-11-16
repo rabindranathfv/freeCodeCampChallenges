@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Technical Documentacion - FCC</title>
+    <link rel="stylesheet" href="TechnicalDocCSS.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header id="title">Bootstrap 4</header>
+        <div id="menu">
+            <a class="nav-link" href="#Bootstrap_Accesability">Bootstrap Accesability</a>
+            <a class="nav-link" href="#Responsive_Images">Responsive Imagenes</a>
+            <a class="nav-link" href="#Tables">Tables</a>
+            <a class="nav-link" href="#Figures">Figures</a>
+            <a class="nav-link" href="#Reboot">Reboot</a>
+        </div>
+    </nav>
+
+    <div id="container">
+        <div></div>
+
+        <main id="main-doc">
+            <section id="Bootstrap_Accesability" class="main-section">
+                <header>Bootstrap Accesability</header>
+                <p>It is</p>
+                <ul>
+                    <li>
+                        <p>Bootstrap Accesability</p>
+                        <p>Bootstrap’s interactive components—such as modal dialogs, dropdown menus and custom tooltips—are designed to work for touch, mouse and keyboard users. Through the use of relevant WAI-ARIA roles and attributes, these components
+                            should also be understandable and operable using assistive technologies (such as screen readers). Because Bootstrap’s components are purposely designed to be fairly generic, authors may need to include further ARIA roles and
+                            attributes, as well as JavaScript behavior, to more accurately convey the precise nature and functionality of their component. This is usually noted in the documentation.</p>
+                    </li>
+                    <li>
+                        <p>Most colors that currently make up Bootstrap’s default palette—used throughout the framework for things such as button variations, alert variations, form validation indicators—lead to insufficient color contrast (below the recommended
+                            WCAG 2.0 color contrast ratio of 4.5:1) when used against a light background. Authors will need to manually modify/extend these default colors to ensure adequate color contrast ratios</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="Responsive_Images" class="main-section">
+                <header>Responsive Images</header>
+                <ul>
+                    <li>
+                        <p>Responsive Images</p>
+                        <p>Images in Bootstrap are made responsive with .img-fluid. max-width: 100%; and height: auto; are applied to the image so that it scales with the parent element.</p>
+                        <code>
+                                <img src="..." class="img-fluid" alt="Responsive image">
+                        </code>
+                    </li>
+                    <li><b>Image thumbnails</b>
+                        <p>In addition to our border-radius utilities, you can use .img-thumbnail to give an image a rounded 1px border appearance.</p>
+                        <code>
+                                <img src="..." alt="..." class="img-thumbnail">
+                    </code>
+                    </li>
+                </ul>
+            </section>
+            <section id="Tables" class="main-section">
+                <header>Tables</header>
+                <ul>
+                    <li>
+                        <p>tables</p>
+                        <p>Due to the widespread use of tables across third-party widgets like calendars and date pickers, we’ve designed our tables to be opt-in. Just add the base class .table to any
+                            <table>, then extend with custom styles or our various included modifier classes.</p>
+                        <p>Using the most basic table markup, here’s how .table-based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as the parent.</p>
+                        <code>
+                                <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">First</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Handle</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                        </code>
+                    </li>
+                    <li><b>Table head options</b>
+                        <p>Similar to tables and dark tables, use the modifier classes .thead-light or .thead-dark to make
+                            <thead>s appear light or dark gray.</p>
+                        <code>
+                                <table class="table">
+                                        <thead class="thead-dark">
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">First</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Handle</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      
+                                      <table class="table">
+                                        <thead class="thead-light">
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">First</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Handle</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">3</th>
+                                            <td>Larry</td>
+                                            <td>the Bird</td>
+                                            <td>@twitter</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                        </code>
+                    </li>
+                </ul>
+
+            </section>
+            <section id="Figures" class="main-section">
+                <header>Figures</header>
+                <ul>
+                    <li>
+                        <p>Figures</p>
+                        <p>
+                            Anytime you need to display a piece of content—like an image with an optional caption, consider using a
+                            <figure>.
+                        </p>
+                        <p>Use the included .figure , .figure-img and .figure-caption classes to provide some baseline styles for the HTML5
+                            <figure> and
+                                <figcaption> elements. Images in figures have no explicit size, so be sure to add the .img-fluid class to your <img> to make it responsive.</p>
+
+                        <code>
+                                <figure class="figure">
+                                        <img src=".../400x300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                                </figure>
+                        </code>
+                    </li>
+
+                    <li>
+                        <p>Aligning the figure’s caption is easy with our text utilities.</p>
+                        <code>
+                                <figure class="figure">
+                                        <img src=".../400x300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                        <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                                </figure>
+                        </code>
+                    </li>
+
+                </ul>
+
+            </section>
+            <section id="Reboot" class="main-section">
+                <header>Reboot</header>
+                <ul>
+                    <li><b>Native font stack</b>
+                        <p>Reboot</p>
+                        <p>The default web fonts (Helvetica Neue, Helvetica, and Arial) have been dropped in Bootstrap 4 and replaced with a “native font stack” for optimum text rendering on every device and OS.</p>
+                        <code>
+                                $font-family-sans-serif:
+                                // Safari for OS X and iOS (San Francisco)
+                                -apple-system,
+                                // Chrome < 56 for OS X (San Francisco)
+                                BlinkMacSystemFont,
+                                // Windows
+                                "Segoe UI",
+                                // Android
+                                "Roboto",
+                                // Basic web fallback
+                                "Helvetica Neue", Arial, sans-serif,
+                                // Emoji fonts
+                                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+                       </code>
+                    </li>
+
+                    <li><b>Address</b>
+                        <p>The <code> address tag </code> element is updated to reset the browser default font-style from italic to normal. line-height is also now inherited, and margin-bottom: 1rem has been added. <address>s are for presenting contact information for the nearest ancestor (or an entire body of work). Preserve formatting by ending lines with <br>.</p>
+                        <code>
+                                Twitter, Inc.
+                                1355 Market St, Suite 900
+                                San Francisco, CA 94103
+                                P: (123) 456-7890
+                                Full Name
+                                first.last@example.com
+                       </code>
+                    </li>
+
+                </ul>
+                <code></code>
+            </section>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
