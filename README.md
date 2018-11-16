@@ -2,10 +2,10 @@
 
 **Introduction to the Responsive Web Design Projects**
 
-- [ ] Build a Tribute Page
-- [ ] Build a Survey Form
-- [ ] Build a Product Landing Page
-- [ ] Build a Technical Documentation Page
+- [x] Build a Tribute Page
+- [x] Build a Survey Form
+- [x] Build a Product Landing Page
+- [x] Build a Technical Documentation Page
 - [x] Build a Personal Portfolio Webpage
 
 **Javascript Algorithms And Data Structures Certification**
