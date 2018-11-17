@@ -36,8 +36,8 @@
 
 **Introduction to the JavaScript Algorithms and Data Structures Projects**
 
-- [ ] Palindrome Checker
-- [ ] Roman Numeral Converter
-- [ ] Caesars Cipher
-- [ ] Telephone Number Validator
-- [ ] Cash Register
+- [x] Palindrome Checker
+- [x] Roman Numeral Converter
+- [x] Caesars Cipher
+- [x] Telephone Number Validator
+- [x] Cash Register
