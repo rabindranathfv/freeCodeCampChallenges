@@ -1,0 +1,153 @@
+--Sass Learning --
+
+
+variables using $ e.g 
+
+$main-font: arial;
+
+body {
+	font-family: $main-font;
+}
+
+assign use : operator for asign values
+
+$val: <value>
+
+---------------
+
+Nesting
+
+
+
+-------
+
+mixin --> are like functions for CSS
+
+@mixin box-shadow($x, $y, $blur, $c){ 
+  -webkit-box-shadow: $x, $y, $blur, $c;
+  -moz-box-shadow: $x, $y, $blur, $c;
+  -ms-box-shadow: $x, $y, $blur, $c;
+  box-shadow: $x, $y, $blur, $c;
+}
+
+and for use mixin, use @include
+
+div {
+  @include box-shadow(0px, 0px, 4px, #fff);
+}
+
+----------
+
+control flow in Sass
+
+@if, @else if, and @else example
+
+<style type='text/sass'>
+  @mixin border-stroke($val) {
+    @if $val == light {
+      border: 1px solid black;
+    }
+    @else if $val ==medium {
+      border: 3px solid black;
+    }
+    @else if $val == heavy {
+      border: 6px solid black;
+    }
+    @else {
+      border: none;
+    }
+  }
+  
+  
+  #box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    @include border-stroke(medium);
+  }  
+</style>
+
+<div id="box"></div>
+
+
+---------------------------------
+@for Example
+
+@for is used in two ways: "start through end" or "start to end". The main difference is that "start to end" excludes the end number, and "start through end" includes the end number.
+
+
+<style type='text/sass'>
+  // 1... 5
+  // if you use 1 throught 6 --> 1... 6
+  @for $j from 1 to 6 {
+    .text-#{$j} {
+      font-size: $j*10px;
+    }
+  }
+  
+  
+</style>
+
+<p class="text-1">Hello</p>
+<p class="text-2">Hello</p>
+<p class="text-3">Hello</p>
+<p class="text-4">Hello</p>
+<p class="text-5">Hello</p>
+
+-------------------
+
+@each loop 
+
+U can apply this loop in list or map
+
+List example
+
+@each $color in blue, red, green {
+  .#{$color}-text {color: $color;}
+}
+
+Map example
+IMPORTANT $key must write for a correct syntax, and for reference keys in the map
+
+$colors: (color1: blue, color2: red, color3: green);
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+
+------------------
+
+@while
+
+
+// Generate 10 clases of text-{1..10} with a font-size {1..10}*px
+$i: 1;
+@while $i <= 10 {
+	.text-#{$i} {
+		font-size: $i*5px;
+	}
+	$i: $i + 1;
+}
+
+---------------
+
+import ccs all files are called _nameFile.scss you can import like
+
+@import 'nameFile'
+
+------------
+
+Extends directive is a simple way to reuse the rules written for one element, then add more for another
+
+.panel{
+  background-color: red;
+  height: 70px;
+  border: 2px solid green;
+}
+
+// now big-panel have all properties of panel and width and font-size
+.big-panel{
+  @extend .panel;
+  width: 150px;
+  font-size: 2em;
+}
