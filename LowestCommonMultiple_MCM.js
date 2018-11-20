@@ -11,9 +11,9 @@ function smallestCommons(arr) {
     let lcm = numbers[0];
     // all primes factor of each number in numbers
     for (let i = 1; i < numbers.length; i++) {
-        console.log(" using gcd with " + lcm + "  and " + numbers[i]);
+        // console.log(" using gcd with " + lcm + "  and " + numbers[i]);
         let GCD = gcd(lcm, numbers[i]);
-        console.log(GCD);
+        // console.log(GCD);
         lcm = (lcm * numbers[i]) / GCD;
     }
     return lcm;
@@ -27,4 +27,5 @@ function smallestCommons(arr) {
 }
 
 
-smallestCommons([2, 10]);
+let answer = smallestCommons([2, 10]);
+console.log(answer);
