@@ -25,14 +25,14 @@
 - [x] Convert HTML Entities
 - [x] Sum All Odd Fibonacci Numbers
 - [x] Sum All Primes
-- [ ] Smallest Common Multiple
-- [ ] Drop it
+- [x] Smallest Common Multiple
+- [x] Drop it
 - [ ] Steamroller
 - [ ] Binary Agents
 - [ ] Everything Be True
 - [ ] Arguments Optional
 - [ ] Make a Person
-- [ ] Map the Debris
+- [x] Map the Debris
 
 **Introduction to the JavaScript Algorithms and Data Structures Projects**
 
