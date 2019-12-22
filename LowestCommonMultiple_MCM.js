@@ -1,7 +1,6 @@
 function smallestCommons(arr) {
     let max = Math.max(...arr);
     let min = Math.min(...arr);
-    // creating and array start in a min and ends in max, and sorted to greater to lowest
     // let numbers = [...Array(max).keys()].map(i => i + min);
     let numbers = [];
     for (let i = min; i <= max; i++) {
