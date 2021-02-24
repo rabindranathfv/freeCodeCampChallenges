@@ -27,11 +27,11 @@
 - [x] Sum All Primes
 - [x] Smallest Common Multiple
 - [x] Drop it
-- [ ] Steamroller
-- [ ] Binary Agents
-- [ ] Everything Be True
-- [ ] Arguments Optional
-- [ ] Make a Person
+- [x] Steamroller
+- [x] Binary Agents
+- [x] Everything Be True
+- [x] Arguments Optional
+- [x] Make a Person
 - [x] Map the Debris
 
 **Introduction to the JavaScript Algorithms and Data Structures Projects**
